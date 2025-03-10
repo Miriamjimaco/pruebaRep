@@ -30,6 +30,13 @@ public class Date {
     System.out.println("Method added by the owner");
   }
 
+  // Constructor modified by owner
+  public Date(int dia, int mes, int año) {
+    this.day = dia;
+    this.month = mes;
+    this.year = año;
+  }
+
   /**
    * Retrieves the day component of this date.
    *
